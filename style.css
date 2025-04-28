@@ -68,3 +68,38 @@ h2 {
     width:5px;
     animation: h1Header 0.5s infinite;
 }
+.imgHeaderArea {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    justify-content: center;
+    display:flex;
+}
+.imgHeader {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: white;
+}
+@keyframes frente-tras {
+    0% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-20px);
+      }
+      100% {
+        transform: translateY(0);
+      }
+}
+.setaBaixoArea {
+    margin-top: 15px;
+    height: 50px;
+}
+.setaBaixo {
+    position:relative;
+    animation: frente-tras 2s infinite;
+}
+.setaBaixo img{
+    width: 30px;
+    opacity: 30%;
+}
