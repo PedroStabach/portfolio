@@ -143,3 +143,85 @@ footer nav ul li a h3 {
     width: 50px;
     font-size: 25px;
 }
+footer h2 {
+    color: #ffff;
+}
+/* ASIDE PROFILE*/
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+aside .myProfileArea {
+    width: 768px;
+}
+.contentArea {
+    display: flex;
+    justify-content: center;
+}
+.contentArea img{
+    position: absolute;
+    margin-top: 20px;
+
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 75px;
+}
+.designImg {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #393131;
+    border-radius: 75px;
+}
+.contentAreaImg {
+    display: flex;
+    width: 120px;
+    height: 120px;
+}
+aside .geral h2 {
+    color: #ffff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h4 {
+    margin-left: 15px;
+    color: #6e6e6e;
+    width: 350px;
+    text-align: initial;
+}
+.listaColuna {
+    width: 600px;
+    align-items: start;
+    margin-top: 50px;
+    display: flex;
+}
+.flex1 {
+    flex: 1;
+}
+.listaColuna nav ul {
+    display: block;
+
+}
+.listaColuna h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #9f9f9f;
+    text-align: start;
+}
+.listaColuna h3 {
+    margin-bottom: 15px;
+    color: #7d7d7d;
+    text-align: start;
+}
+.listaColuna nav ul li {
+    padding: 0;
+    text-align: start;
+    margin-bottom: 5px;
+    color: #7d7d7d;
+}
+.outros {
+    display: flex;
+    justify-content: center;
+}
