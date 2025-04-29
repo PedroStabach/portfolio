@@ -212,14 +212,25 @@ h4 {
 }
 .listaColuna h3 {
     margin-bottom: 15px;
-    color: #7d7d7d;
+    color: #8f8f8f;
     text-align: start;
 }
 .listaColuna nav ul li {
     padding: 0;
     text-align: start;
     margin-bottom: 5px;
-    color: #7d7d7d;
+    color: #8f8f8f;
+}
+.listaColuna nav ul li h3 {
+    margin: 0;
+    padding: 0;
+    color: #9f9f9f;
+}
+.listaColuna nav ul li i {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    color: #8f8f8f;
 }
 .outros {
     display: flex;
