@@ -12,7 +12,13 @@ body {
     align-items: center;
     justify-content: center;
 }
+.bodyArea {
+    width: 100%;
 
+}
+header {
+    background-color: #4c4040;
+}
 nav ul {
     display: flex;
     flex-direction: row;
@@ -58,6 +64,9 @@ h1 {
     display: flex;
     font-size: 50px;
     margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 h2 {
     color: #6e6e6e;
@@ -92,8 +101,7 @@ h2 {
       }
 }
 .setaBaixoArea {
-    margin-top: 15px;
-    height: 50px;
+    margin-top: 25px;
 }
 .setaBaixo {
     position:relative;
@@ -102,4 +110,36 @@ h2 {
 .setaBaixo img{
     width: 30px;
     opacity: 30%;
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #393131;
+}
+footer nav ul li a img {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+footer nav ul li a img {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+}
+
+footer nav ul li a h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
 }
