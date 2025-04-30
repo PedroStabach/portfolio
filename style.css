@@ -236,3 +236,27 @@ h4 {
     display: flex;
     justify-content: center;
 }
+
+/* PROJETOS */
+
+.slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+
+.projectArea {
+    background-color: #5f5151;
+}
