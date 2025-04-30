@@ -116,6 +116,7 @@ h2 {
 /*FOOTER*/
 footer {
     background-color: #2f2828;
+    height: 120px;
 }
 footer nav ul li a img {
     background-color: black;
@@ -253,17 +254,27 @@ h4 {
     min-width: 100%;
     box-sizing: border-box;
     padding: 20px;
-    background-color: #ffff;
   }
 
 .projectArea {
     width: 100%;
     background-color: #393131;
 }
-
+.projectArea h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.projectArea h2 {
+    font-size: 20px;
+}
+.projectArea i {
+    color: #6e6e6e;
+    font-size: 18px;
+}
 button {
     position: absolute;
-    top: 250%;
+    bottom: calc((100vh)+ 120px);
     transform: translateY(-50%);
     background: #222;
     color: white;
@@ -280,3 +291,19 @@ button {
   #next {
     right: 10px;
   }
+#espaco {
+    margin-top: 50px;
+}
+#lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#lista .item { 
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 350px;
+}
+#lista .item img {
+    height: 150px;
+}

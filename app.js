@@ -15,8 +15,8 @@ async function carregarSlides() {
     slide.innerHTML = `<img src="img/${item.img}" alt="" style="width: 400px;">
         <h1>${item.nome}</h1>
         <h2>${item.funcao}</h2>
-        <h2>${item.tecnologias}</h2>
-        <h2>${item.data}</h2>`;
+        <h2>Tecnologias: ${item.tecnologias}</h2>
+        <h2><i>Feito em: ${item.data}</i></h2>`;
     slider.appendChild(slide);
   });
 
@@ -59,3 +59,23 @@ document.getElementById('next').addEventListener('click', () => {
 });
 
 carregarSlides();
+
+async function todosProjetos() {
+  const resposta = await fetch('BD.json');
+  const dados = await resposta.json();
+  totalProjetos = dados.length;
+
+  const container = document.getElementById('lista');
+  dados.forEach(item => {
+    const div = document.createElement('div');
+    div.className = 'item';
+    div.innerHTML = `<img src="img/${item.img}" alt="" style="width: 400px;">
+        <h1>${item.nome}</h1>
+        <h2>${item.funcao}</h2>
+        <h2>Tecnologias: ${item.tecnologias}</h2>
+        <h2><i>Feito em: ${item.data}</i></h2>`;
+        container.appendChild(div);
+  });
+
+}
+todosProjetos();

@@ -1,26 +1,26 @@
 [
     {
         "img" : "duas-setas-para-baixo.png",
-        "nome" : "nome",
-        "funcao" : "funcao",
-        "tecnologias" : "tecnologias",
-        "data" : "data"
+        "nome" : "xadrez",
+        "funcao" : "voce pode jogar xadrez com um amigo ou entao contra um computador",
+        "tecnologias" : "javascript",
+        "data" : "05/2025"
 
     },
     {
         "img" : "duas-setas-para-baixo.png",
-        "nome" : "nome",
-        "funcao" : "funcao",
-        "tecnologias" : "tecnologias",
-        "data" : "data"
+        "nome" : "xadrez",
+        "funcao" : "voce pode jogar xadrez com um amigo ou entao contra um computador",
+        "tecnologias" : "javascript",
+        "data" : "05/2025"
 
     },
     {
         "img" : "duas-setas-para-baixo.png",
-        "nome" : "nome",
-        "funcao" : "funcao",
-        "tecnologias" : "tecnologias",
-        "data" : "data"
+        "nome" : "xadrez",
+        "funcao" : "voce pode jogar xadrez com um amigo ou entao contra um computador",
+        "tecnologias" : "javascript",
+        "data" : "05/2025"
 
     }
 ]
