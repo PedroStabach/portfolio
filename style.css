@@ -194,6 +194,7 @@ h4 {
 }
 .listaColuna {
     width: 600px;
+    flex-wrap: wrap;
     align-items: start;
     margin-top: 50px;
     display: flex;
@@ -259,6 +260,7 @@ h4 {
 .projectArea {
     width: 100%;
     background-color: #393131;
+    padding-bottom: 50px;
 }
 .projectArea h1 {
     margin: 0;
@@ -306,4 +308,20 @@ button {
 }
 #lista .item img {
     height: 150px;
+}
+.myProfileMob {
+    display: none;
+}
+.slide img {
+    width: 100%;
+}
+/* MOBILE*/
+@media (max-width: 610px) {
+    .myProfile {
+        display: none;
+    }
+    .myProfileMob {
+        display: block;
+    }
+
 }

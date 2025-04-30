@@ -12,7 +12,7 @@ async function carregarSlides() {
   dados.forEach(item => {
     const slide = document.createElement('div');
     slide.className = 'slide';
-    slide.innerHTML = `<img src="img/${item.img}" alt="" style="width: 400px;">
+    slide.innerHTML = `<img src="img/${item.img}" alt="">
         <h1>${item.nome}</h1>
         <h2>${item.funcao}</h2>
         <h2>Tecnologias: ${item.tecnologias}</h2>
@@ -69,7 +69,7 @@ async function todosProjetos() {
   dados.forEach(item => {
     const div = document.createElement('div');
     div.className = 'item';
-    div.innerHTML = `<img src="img/${item.img}" alt="" style="width: 400px;">
+    div.innerHTML = `<img src="img/${item.img}" alt="">
         <h1>${item.nome}</h1>
         <h2>${item.funcao}</h2>
         <h2>Tecnologias: ${item.tecnologias}</h2>
