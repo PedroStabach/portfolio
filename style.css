@@ -115,7 +115,7 @@ h2 {
 
 /*FOOTER*/
 footer {
-    background-color: #393131;
+    background-color: #2f2828;
 }
 footer nav ul li a img {
     background-color: black;
@@ -253,10 +253,30 @@ h4 {
     min-width: 100%;
     box-sizing: border-box;
     padding: 20px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
+    background-color: #ffff;
   }
 
 .projectArea {
-    background-color: #5f5151;
+    width: 100%;
+    background-color: #393131;
 }
+
+button {
+    position: absolute;
+    top: 250%;
+    transform: translateY(-50%);
+    background: #222;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #prev {
+    left: 10px;
+  }
+  
+  #next {
+    right: 10px;
+  }
