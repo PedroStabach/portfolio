@@ -7,7 +7,7 @@ import { join } from 'path';
 export class AppController {
   @Get()
   getIndex(@Res() res: Response) {
-    const filePath = join(__dirname, '..', 'index.html'); // <-- caminho correto
+    const filePath = join(__dirname, '..', 'public', 'index.html'); // <-- caminho correto
     return res.sendFile(filePath);
   }
 }
