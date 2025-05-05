@@ -1,6 +1,6 @@
 [
     {
-        "img" : "duas-setas-para-baixo.png",
+        "img" : "cavalo.png",
         "nome" : "xadrez",
         "funcao" : "voce pode jogar xadrez com um amigo ou entao contra um computador",
         "tecnologias" : "javascript",
@@ -8,19 +8,19 @@
 
     },
     {
-        "img" : "duas-setas-para-baixo.png",
-        "nome" : "xadrez",
-        "funcao" : "voce pode jogar xadrez com um amigo ou entao contra um computador",
+        "img" : "aguarde.png",
+        "nome" : "Em construção",
+        "funcao" : "Em construção",
         "tecnologias" : "javascript",
-        "data" : "05/2025"
+        "data" : "x/2025"
 
     },
     {
-        "img" : "duas-setas-para-baixo.png",
-        "nome" : "xadrez",
-        "funcao" : "voce pode jogar xadrez com um amigo ou entao contra um computador",
+        "img" : "aguarde.png",
+        "nome" : "Em construção",
+        "funcao" : "Em construção",
         "tecnologias" : "javascript",
-        "data" : "05/2025"
+        "data" : "x/2025"
 
     }
 ]

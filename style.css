@@ -319,8 +319,67 @@ button {
 .footer nav ul li:hover {
     box-shadow: 1px 1px 1px #222;
 }
+/* Menu MOB*/
+    /* Botão Hambúrguer */
+    .menu-btn {
+        display: none;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        width: 35px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 999;
+      }
+  
+      .menu-btn span {
+        display: none;
+        height: 4px;
+        width: 100%;
+        background: white;
+        border-radius: 2px;
+        transition: 0.3s ease;
+      }
+  
+      /* Menu */
+      .mobile-menu {
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        height: 100%;
+        background-color: #1e1e1e;
+        padding: 60px 20px;
+        transition: right 0.3s ease;
+        box-shadow: -2px 0 10px rgba(0,0,0,0.5);
+      }
+  
+      .mobile-menu.active {
+        right: 0;
+      }
+  
+      .mobile-menu a {
+        display: block;
+        margin: 20px 0;
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+
 /* MOBILE*/
+@media(max-width: 685px) {
+    .h1Header {
+        display: none;
+    }
+}
 @media (max-width: 610px) {
+    #top {
+        padding-top: 50px;
+    }
     .myProfile {
         display: none;
     }
@@ -331,7 +390,12 @@ button {
         display: block;
     }
     .contentArea {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contentArea img {
+        position: static;
     }
     .listaColuna {
         width: auto;
@@ -344,12 +408,10 @@ button {
     }
     .geral h4 {
         width: 100%;
+        margin: 0;
     }
     .designImg {
         margin-left: calc(50% - 100px);  
-    }
-    .contentArea img {
-        margin-left: calc(50% - 100px);
     }
     .listaColuna nav ul li {
         font-size: 12px;
@@ -371,5 +433,14 @@ button {
     }
     .listaColuna h3 {
         text-align: center;
+    }
+    header nav{
+        display: none;
+    }
+    .menu-btn {
+        display: flex;
+    }
+    .menu-btn span {
+        display: block;
     }
 }
