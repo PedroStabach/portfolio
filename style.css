@@ -309,10 +309,11 @@ button {
 #lista .item img {
     height: 150px;
 }
-.myProfileMob {
+.myProfileAreaMob {
     display: none;
 }
 .slide img {
+    max-width: 450px;
     width: 100%;
 }
 /* MOBILE*/
@@ -320,8 +321,52 @@ button {
     .myProfile {
         display: none;
     }
-    .myProfileMob {
+    .myProfileAreaMob {
         display: block;
     }
-
+    .geral {
+        display: block;
+    }
+    .contentArea {
+        display: block;
+    }
+    .listaColuna {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex1 {
+        width: 100%;
+        flex: none;
+    }
+    .geral h4 {
+        width: 100%;
+    }
+    .designImg {
+        margin-left: calc(50% - 100px);  
+    }
+    .contentArea img {
+        margin-left: calc(50% - 100px);
+    }
+    .listaColuna nav ul li {
+        font-size: 12px;
+    }
+    .designImg {
+        display: none;
+    }
+    .listaColuna nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .listaColuna nav ul li {
+        text-align: center;
+    }
+    .flex1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .listaColuna h3 {
+        text-align: center;
+    }
 }
