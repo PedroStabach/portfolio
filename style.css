@@ -316,6 +316,9 @@ button {
     max-width: 450px;
     width: 100%;
 }
+.footer nav ul li:hover {
+    box-shadow: 1px 1px 1px #222;
+}
 /* MOBILE*/
 @media (max-width: 610px) {
     .myProfile {
